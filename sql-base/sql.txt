@@ -1,0 +1,10 @@
+﻿
+Sql necessario para criar a rodar a aplicação
+
+CREATE TABLE `cliente` ( `id` INTEGER PRIMARY KEY , `nome` VARCHAR(100)  , `cpf` VARCHAR(11), `rg` VARCHAR(11)  , `dt_nasc` DATE  , `nome_mae` VARCHAR(100) , `email` VARCHAR(50)  , `tel_1` VARCHAR(20)  , `tel_2` VARCHAR(20)  , `endereco` VARCHAR(500) , `ponto_referencia` VARCHAR(500)  , `data_vencimento` VARCHAR(10), `plano_escolhido` VARCHAR(50)  , `info_add` VARCHAR(500), `nome_func` VARCHAR(100) );
+
+
+-------------------------------------------------------------------------------------------------------------------------
+Sql de inserção de exemplos
+
+INSERT INTO 'cliente' ('nome','cpf','rg','dt_nasc','nome_mae','email','tel_1','tel_2','endereco','ponto_referencia', 'data_vencimento','plano_escolhido','info_add','nome_func') VALUES ('ANDRE','12345678901','12345678901','1999-01-01','geovana','andre@andre','61 87654 7654','61 87654 7654','qd 0 lt 0', 'perto de x', '21', 'gamer', 'info add', 'joão')
